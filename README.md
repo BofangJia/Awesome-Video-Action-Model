@@ -238,11 +238,13 @@ This view is aligned with the original survey-style bridge taxonomy: `Predictive
 
 ## Star History
 
-<a href=" ">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=BofangJia/Awesome-Video-Action-Model&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=BofangJia/Awesome-Video-Action-Model&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=BofangJia/Awesome-Video-Action-Model&type=date&legend=top-left" />
- </picture>
+## Star History
+
+<a href="https://star-history.com/#BofangJia/Awesome-Video-Action-Model&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=BofangJia/Awesome-Video-Action-Model&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=BofangJia/Awesome-Video-Action-Model&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=BofangJia/Awesome-Video-Action-Model&type=Date" />
+  </picture>
 </a>
 
