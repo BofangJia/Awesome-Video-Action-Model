@@ -236,6 +236,14 @@ This view is aligned with the original survey-style bridge taxonomy: `Predictive
 | [WoVR](https://arxiv.org/abs/2602.13977) | `Support / R4` | `masked GRPO` inside a controllable video world model with Keyframe-Initialized Rollouts and low-frequency policy-world co-evolution | the backbone remains a world-model-based simulator for VLA post-training, while the novelty is reliability-aware RL that explicitly regulates hallucination and distribution shift |
 | [ReWorld](https://arxiv.org/abs/2601.12428) | `Support / R4` | PPO-style post-training of embodied world models with a multi-dimensional preference reward model | the backbone remains a video-based embodied world model, while the headline contribution is reward modeling plus RL alignment toward physical realism, task logic, and embodiment plausibility |
 
+## Star History
 
+<a href=" ">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=BofangJia/Awesome-Video-Action-Model&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=BofangJia/Awesome-Video-Action-Model&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=BofangJia/Awesome-Video-Action-Model&type=date&legend=top-left" />
+ </picture>
+</a>
 
 
