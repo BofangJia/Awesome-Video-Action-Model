@@ -22,7 +22,7 @@ These papers are not single VAM/WAM methods, but they are useful anchors for fra
 
 | Paper | Venue | Date | Scope | Code/Project | Why it matters |
 | --- | --- | --- | --- | --- | --- |
-| [World Action Models: The Next Frontier in Embodied AI](https://arxiv.org/abs/2605.12090) | arXiv 2026 | 5/2026 | `position; WAM taxonomy` | - | Defines WAMs as a central embodied-AI interface and helps motivate the split between explicit video imagination, latent future modeling, action-only deployment, and evaluation. |
+| [World Action Models: The Next Frontier in Embodied AI](https://arxiv.org/abs/2605.12090) | arXiv 2026 | 5/2026 | `position; WAM taxonomy` | [Project](https://openmoss.github.io/Awesome-WAM) / [Code](https://github.com/OpenMOSS/Awesome-WAM) | Defines WAMs as a central embodied-AI interface and helps motivate the split between explicit video imagination, latent future modeling, action-only deployment, and evaluation. |
 | [World Model for Robot Learning: A Comprehensive Survey](https://arxiv.org/abs/2605.00080) | arXiv 2026 | 4/2026 | `survey; robot world models` | [Project](https://ntumars.github.io/wm-robot-survey/) / [Code](https://github.com/NTUMARS/Awesome-World-Model-for-Robotics-Policy) | Broader robot world-model map, useful as an external survey reference beyond VAM/WAM-specific methods. |
 
 
