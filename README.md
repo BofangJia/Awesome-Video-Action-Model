@@ -248,6 +248,7 @@ These papers are not single VAM/WAM methods, but they are useful anchors for fra
 | [GaussianWAM](https://arxiv.org/abs/2608.24714) | GaussianWAM: Distilling Geometry and Semantics from 3D Gaussian Fields into World-Action Models | arXiv 2026 | 8/2026 | `robot-only, multi-view, explicit-3D-labeled + action-labeled, scripted` | - | Bridge: `Explicit 3D / Gaussian Geometry-Semantics Distillation`. Strict VAM: `Partial`. Distills a training-time 3D Gaussian geometry-and-semantics teacher into action-facing WAM tokens. |
 | [LAWA](https://arxiv.org/abs/2608.24882) | Latent Action as Intention Enables Efficient Future Imagination for World Action Models | arXiv 2026 | 8/2026 | `co-training, exo, action-free + action-labeled, scripted` | - | Bridge: `Latent Action / Joint Intention-Action Denoising`. Strict VAM: `Yes`. Jointly denoises latent intentions and robot actions at inference, making imagined intention a mandatory action condition. |
 | [GaussianDream++](https://arxiv.org/abs/2608.25659) | GaussianDream++: Efficient 3D Gaussian World Modeling for Robotic Manipulation | arXiv 2026 | 8/2026 | `robot-only, multi-view, explicit-3D-labeled + action-labeled, scripted` | - | Bridge: `Explicit 3D / Policy-Native Gaussian World Tokens`. Strict VAM: `Partial`. Supervises compact policy-native world tokens with current and future 3D Gaussians, then retains the tokens while removing the renderer. |
+| [LeWAM](https://arxiv.org/abs/2609.27455) | Latent evolving World Action Model | arXiv 2026 | 9/2026 | `robot-only, multi-view, action-labeled` | [Code](https://github.com/XuejiFang/LeWAM) / [Ckpt](https://huggingface.co/XuejiFang/LeWAM) | Bridge: `World Model / Action-Conditioned Future JEPA Embedding`. Strict VAM: `Partial`. Compares frozen visual encoders for action generation and jointly trains action and future embedding prediction; future queries are omitted at inference. |
 
 <a id="route-4-physical-intelligence-bridge-heavy-signals-and-evaluation"></a>
 # 4️⃣ Route 4: Physical Intelligence, Bridge-Heavy Signals, and Evaluation
@@ -493,6 +494,7 @@ This view is aligned with the original survey-style bridge taxonomy: `Predictive
 | [PredVLA](https://arxiv.org/abs/2608.26673) | arXiv 2026 | R2 / Predictive control | Partial | `robot-only, exo, action-labeled, scripted` | - | - | - |
 | [Riemann-1.0](https://arxiv.org/abs/2608.27033) | arXiv 2026 | R2 | Yes | `co-training, ego + exo, action-free + action-labeled, mixed human/robot` | - | - | - |
 | [CLAP](https://arxiv.org/abs/2608.27406) | arXiv 2026 | R1 / R4 / Latent Action | Partial | `co-training, cross-embodiment video, action-free + action-labeled, scripted` | - | - | - |
+| [LeWAM](https://arxiv.org/abs/2609.27455) | arXiv 2026 | R3 | Partial | `robot-only, multi-view, action-labeled` | - | [code](https://github.com/XuejiFang/LeWAM) | [ckpt](https://huggingface.co/XuejiFang/LeWAM) |
 
 ## 🧩 Latent Action
 
