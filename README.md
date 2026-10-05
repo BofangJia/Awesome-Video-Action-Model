@@ -937,23 +937,4 @@ This view includes several learning families. **RL, preference learning, distill
 | [SimWAM](https://arxiv.org/abs/2608.07468) | `R2` | reinforcement learning with a compositional driving reward | the training-time video expert remains the dynamics prior while RL optimizes the deployable action-only planner beyond trajectory imitation |
 | [Dream2Reward](https://arxiv.org/abs/2608.18787) | `R4` | online SAC and offline Q-guided policy optimization with a successful latent-transition alignment reward | the learned reward predicts task-conditioned successful future change and scores actual transitions by direction and magnitude, making policy improvement explicitly world-transition-grounded |
 
-### Newly added optimization mechanisms
-
-| Learning family | Papers |
-| --- | --- |
-| RL / world-model-assisted policy optimization | [WHIRL](#paper-2609-06009), [HaWMPO](#paper-2609-09941), [Imagine-RL](#paper-2609-24033), [Achieve What You Imagined](#paper-2609-33832) |
-| World-model RL alignment | [FutureWorlds](#paper-2610-01019) |
-| Offline preference / value-guided policy refinement | [LeWAM](#paper-2609-27455), [PAVE](#paper-2608-30378) |
-| Distillation | [DIDO](#paper-2609-15570), [AnyStep-WAM](#paper-2609-33748), [WAM-OPD (PWTR)](#paper-2609-34250) |
-| Supervised or verified self-improvement / data selection | [WISE](#paper-2609-03681), [XPACE](#paper-2609-17372), [DEWO](#paper-2609-37398), [EVO-WAM](#paper-2609-38057), [RoboCoach](#paper-2609-39685) |
-| Federated adaptation | [RoboFL](#paper-2609-34968) |
-| Test-time dynamics-belief adaptation | [SCOUT](#paper-2609-36107) |
-
-### Reading precautions
-
-- Do not merge papers by acronym: JEPA-WAM, DeltaWAM, UniWAM and WAM-OPD each name multiple arXiv records. Use the full title and ID.
-- Separate predicted consequences from predicted intentions. A visually plausible goal is not evidence that the generated action realizes it.
-- Separate removal of an offline teacher from removal of future inference. FOCAL-VLA, GC-VLA and WING retain action-facing predictive guidance even though privileged target construction is offline.
-- Measure the critical control path: time to first action, observation age, update rate, end-to-end task time and success under a matched compute budget. Video frames per second alone do not establish closed-loop efficiency.
-- For post-training, state which component changes and whether feedback comes from real execution, a simulator, a learned world model, a teacher or a verifier. Successes, failures and hallucinated rollouts supply different evidence.
 
