@@ -938,3 +938,8 @@ This view includes several learning families. **RL, preference learning, distill
 | [Dream2Reward](https://arxiv.org/abs/2608.18787) | `R4` | online SAC and offline Q-guided policy optimization with a successful latent-transition alignment reward | the learned reward predicts task-conditioned successful future change and scores actual transitions by direction and magnitude, making policy improvement explicitly world-transition-grounded |
 
 
+
+
+
+
+
